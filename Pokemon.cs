@@ -48,4 +48,4 @@ public class Pokemon
         opponent.HP -= dmg;
         Console.WriteLine($"{Name} attacks {opponent.Name} with {firstAttack.Name}!");
     }
-}
+} 
