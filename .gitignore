@@ -1,20 +1,37 @@
-# Visual Studio specific
-.vs/
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-# Build output
+# Build Folders
 bin/
 obj/
 
-# Logs
-*.log
+# Visual Studio
+.vs/
 
-# Rider IDE
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# MonoDevelop
+*.pidb
+*.userprefs
+
+# Rider
 .idea/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Others
+*.exe
+*.dll
+*.pdb
+*.cache
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Publish output
+publish/
